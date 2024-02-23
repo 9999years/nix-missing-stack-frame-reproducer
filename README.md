@@ -71,7 +71,7 @@ error:
             2|   bundler,
 ```
 
-With my patch, we see the stack frame:
+With [my patch](https://github.com/NixOS/nix/pull/10066), we see the stack frame:
 
 ```
 $ ~/nix/outputs/out/bin/nix build .#myNamespace.gems --show-trace
